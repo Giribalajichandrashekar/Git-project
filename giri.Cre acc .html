@@ -13,14 +13,15 @@
             text-align: center;
             font-size: x-large;
         }
-        .login{
-            text-align: center;
-            font-size: xx-large;
-        }
         .next{
-            margin-left: 140px;
+            margin-left: 220px;
             margin-top: 60px;
-            color: brown;
+            margin-bottom: 40px;
+            background-color: rgb(9, 255, 0);
+            border-color: green;
+            height: 33px;
+            width: 55px;
+            font-size: 17px;
         }
         .whole{
             margin-top: 200px;
@@ -28,27 +29,30 @@
             border-left: 2px solid black;
             border-right: 2px solid black;
             border-bottom: 2px solid black;
-            margin-left: 450px;
+            margin-left: 440px;
             margin-right: 450px;
             margin-top: 200px;
             text-align: center;
             font-size: xx-large;
         }
+        .login1{
+            font-size: 20px;
+        }
+        .login2{
+            font-size: 20px;
+        }
     </style>
 </head>
 <body>
     <div class="whole">
-    <h2>Order Online.com</h2>
-    <div>Create an account seperatly for OO.com</div>
-    <br/>
-    <div class="login">
-    <input type="text" placeholder="First Name">
-    <br/>
-    <input type="text" placeholder="Last name (optional)">
-</div>
-<div class="next">
-    <button>Next</button>
-</div>
-</div>
+        <h2>Order Online.com</h2>
+        <h5>Create an account seperatly for OO.com</h5>
+        <div>Enter your name</div>
+        <input class="login1" type="text" placeholder="First Name" required>
+        <input class="login2" type="text" placeholder="Last name (optional)" required>
+            <a href="giri.cre.new.html">
+            <button class="next">Next</button>
+        </a>
+    </div>
 </body>
 </html>
