@@ -9,17 +9,17 @@
             text-align: center;
             margin-top: 200px;
             font-size: xx-large;
-            border-top: 2px solid black;
-            border-left: 2px solid black;
-            border-right: 2px solid black;
-            border-bottom: 2px solid black;
-            margin-left: 450px;
-            margin-right: 550px;
+            border: 2px solid black;
+            margin-left: 430px;
+            margin-right: 530px;
             color: black;
+            border-radius: 15px;
+            box-shadow: 10px 10px 5px grey;
         }
         .next{
             margin-left: 140px;
             margin-top: 60px;
+            margin-bottom: 15px;
         }
         .icon{
             margin-right: 190px;
@@ -35,6 +35,18 @@
         }
         .gap{
             margin-left: 450px;
+            margin-top: 7px;
+        }
+        .email{
+            block-size: 30px;
+            width: 200px;
+        }
+        .paswd{
+            block-size: 30px;
+            width: 200px;
+        }
+        .nxt{
+            cursor: pointer;
         }
     </style>
 </head>
@@ -54,18 +66,17 @@
         <h2>Login</h2>
     </div>
     <div calss="text">
-        <input type="text" placeholder="E-mail(or)Phone" required/>
+        <input class="email" type="text" placeholder="E-mail(or)Phone" required/>
         <br/>
-        <input type="password" placeholder="Input password" required/>
+        <input class="paswd" type="password" placeholder="Input password" required/>
     </div>
     <div class="next">
         <a href="giri.login.next.html">
-        <button>Next</button>
+        <button class="nxt">Next</button>
     </a>
     </div>
 </div>
 <div class="gap">Dont have an account?</div>
-<br/>
 <br/>
     <div class="a">
     <a href="giri.Cre acc .html" >

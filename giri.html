@@ -4,7 +4,6 @@
     <meta charset="UTF-8">  
     <meta http-equiv="X-UA-Compatible" content="IE=edege">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
     <title>Order Online(OO)</title>
     <style>
         h1{
@@ -46,7 +45,7 @@
         .navbar{
         background-color: #dde0db;
         height: 80px;
-        margin-top: 20px;
+        margin-top: 30px;
         border-radius: 20px;
         filter: drop-shadow(10px 10px 5px grey);
         }
@@ -75,10 +74,13 @@
             width: 90px;
             font-family:'Times New Roman', Times, serif;
             cursor: pointer;
-             will-change: scroll-position;
-            margin-right: 30px;
+            /* will-change: scroll-position; */
+            /* margin-right: 30px; */
             border-radius: 10px;
             filter: drop-shadow(0px 0px 3px grey);
+            margin-left: 40;
+            /* float: right;
+            margin-top: 10px; */
         }
         .acc{
             background-color: white;
@@ -87,9 +89,10 @@
             border-color: rgb(81, 201, 33);
             box-shadow: inset;
             cursor: pointer;
-            margin-right: 100px;
+            /* margin-right: 40px; */
             border-radius: 10px;
             filter: drop-shadow(0 0 0  grey);
+            
         }
         .google{
             margin-left: 350px;
@@ -101,7 +104,7 @@
          .headimg{
             filter: drop-shadow(10px 10px 5px  rgb(109, 233, 104));
             border-radius: 20px;
-            margin-top: 20px;
+            margin-top: 30px;
          }
          .nv{
             margin-left: 40px;
@@ -125,24 +128,24 @@
          .boder{
             margin-top: 150px;
             margin-bottom: 30px;
-             border: 200px solid rgb(213, 218, 213); 
+            border: 200px solid rgb(213, 218, 213); 
             background-color: rgb(213, 218, 213);
             border-radius: 15px;
             filter: drop-shadow(10px 10px 5px grey);
          }
          .p2{
             margin-left: 50px;
-            text-shadow: 10px 10px 10px black;
+            text-shadow: 5px 5px 10px black;
             font-size: 22px;
          }
          .p3{
             margin-left: 300px;
-            text-shadow: 10px 10px 10px black;
+            text-shadow: 5px 5px 10px black;
             font-size: 25px;
          }
          .p4{
             margin-left: 220px;
-            text-shadow: 10px 10px 10px black;
+            text-shadow: 5px 5px 10px black;
             font-size: 25px;
          }
          .exp{
@@ -177,21 +180,21 @@
             font-family: 'Times New Roman', Times, serif;
             font-size: 17px;
             cursor: pointer;
-         }
+        }
         .navbar1{
-        background-color: #dde0db;
-        height: 80px;
-        margin-top: 0px;
-        border-radius: 20px;
-        filter: drop-shadow(10px 10px 5px grey);
+            background-color: #dde0db;
+            height: 80px;
+            margin-top: 0px;
+            border-radius: 20px;
+            filter: drop-shadow(10px 10px 5px grey);
         }
         .nb-box1{
             /* border: 1px solid rgb(2, 2, 3); */
             height: 76px;
             width: 100%;
             margin: auto;
-            text-align: left;
-            line-height: 70px;
+            /* text-align: auto; */
+            line-height: 80px;
             border-radius: 20px;
             filter: drop-shadow(10px 10px 5px grey);
         }
@@ -219,6 +222,10 @@
             font-size: 25px;
             cursor: pointer;
         }
+        .newbutton{
+            float: right;
+            margin-left: 10px;
+        }
          /*
         .body{
             background-color: #b9cf7a;
@@ -226,6 +233,7 @@
     </style>
 </head>
 <body>
+    <div class="whole">
     <h1>Order Online.com</h1>
     <div class="navbar1">
         <div class="nb-box1"> 
@@ -233,9 +241,16 @@
             <span class="ab">About us</span>
             <span class="con">Contact us</span>
             <span class="user">User</span>
-
+             <div class="newbutton">
+            <a href="giri.login.html">         
+                <button class="login">Login</button> 
+            </a>
+                <a href="giri.Cre.acc.html">
+                <button class="acc">Create an account</button>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       
+            </a>
+        </div>
+        </div>
     </div>
-</div>
     <!-- <img class="google" src="https://www.google.com/logos/doodles/2023/celebrating-the-first-landing-on-the-moons-south-pole-6753651837110163.2-2xa.gif"> -->
     <div class="imgdiv"> 
          <!-- <img class="gif" src="oogif1.gif">  -->
@@ -244,12 +259,12 @@
     </div>                    
     <div class="navbar">
         <div class="nb-box"> 
-            <a href="giri.login.html">         
+            <!-- <a href="giri.login.html">         
     <button class="login" img src="images/food.jpg">Login</button> 
 </a>
     <a href="giri.Cre.acc.html">
     <button class="acc">Create an account</button>
-</a>
+</a> -->
     </div>
     </div>
     <h3>Welcome To Order Online.com
@@ -289,6 +304,7 @@
 </a> -->
      <div class="boder">
     </div>
+</div>
 </body>
 <footer>
     <hr bold>
@@ -297,4 +313,5 @@
     </marquee>
     <hr bold>
 </footer>
+
 </html>
