@@ -5,231 +5,235 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edege">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Order Online(OO)</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+            function home() {
+                window.open("giri.home.html")
+            }
+            function abt() {
+                window.open("giri.abt.html")
+            }
+            function contus() {
+                window.open("giri.contus.html")
+            }
+            function usr() {
+                window.open("giri.usr.html")
+            }
+    </script>
     <style>
         h1{
-            background-color: rgb(67, 182, 92);
-            text-align: center;
-            /* border-top: 2px solid  white;
-            border-bottom: 2px solid  white; */
-            border-radius: 40px;
-            filter: drop-shadow(10px 10px 5px grey);
-            font-family: 'roman';
-            font-size: 40px;
-        }
-        h3{
-            background-color: rgb(106, 190, 85);
-            text-align: center;
-            /* border-top: 2px solid rgb(255, 255, 255);
-            border-bottom: 2px solid rgb(255, 255, 255); */
-            border-radius: 40px;
-            filter: drop-shadow(10px 10px 5px grey);
-        } 
-        .giri1{
-            text-align: center;
-            border: 2px solid black;
-            margin-left: 560px;
-            margin-right: 530px;
-            background-color: rgb(51, 255, 119);
-            border-radius: 20px;
-            font-size: 15px;
-        }
-        p{
-            max-width: 280px;
-            margin-left: 40px;
-            font-size: 19px;
-            font-style: bold ;
-        }
-        .imgdiv{
-            text-align: center;
-        }
-        .navbar{
-        background-color: #dde0db;
-        height: 80px;
-        margin-top: 30px;
-        border-radius: 20px;
-        filter: drop-shadow(10px 10px 5px grey);
-        }
-        .nb-box{
-            /* border: 1px solid rgb(2, 2, 3); */
-            height: 76px;
-            width: 100%;
-            margin: auto;
-            text-align: right;
-            line-height: 70px;
-            border-radius: 20px;
-            filter: drop-shadow(10px 10px 5px grey);
-        }
-        .jpg{
-            margin-left: 450px;
-        }
-        .p1{
-        display: flex;
-        /* justify-content: space-between; */
-        flex-direction: row;
-        }
-        .login{
-            /* background-color: black;
-            color: white; */
-            height: 30px;
-            width: 90px;
-            font-family:'Times New Roman', Times, serif;
-            cursor: pointer;
-            /* will-change: scroll-position; */
-            /* margin-right: 30px; */
-            border-radius: 10px;
-            filter: drop-shadow(0px 0px 3px grey);
-            margin-left: 40;
-            /* float: right;
-            margin-top: 10px; */
-        }
-        .acc{
-            background-color: white;
-            height: 35px;
-            width: 150px;
-            border-color: rgb(81, 201, 33);
-            box-shadow: inset;
-            cursor: pointer;
-            /* margin-right: 40px; */
-            border-radius: 10px;
-            filter: drop-shadow(0 0 0  grey);
-            
-        }
-        .google{
-            margin-left: 350px;
-            height: 200px;
-        }
-        .gif{
-            height: 90px;
-         }
-         .headimg{
-            filter: drop-shadow(10px 10px 5px  rgb(109, 233, 104));
-            border-radius: 20px;
-            margin-top: 30px;
-         }
-         .nv{
-            margin-left: 40px;
-            border-radius: 10px;
-            margin-top: 40px;
-            filter: drop-shadow(10px 10px 5px  grey);
-            
-         }
-         .ff{
-            margin-left: 40px;
-            border-radius: 10px;
-            margin-top: 40px;
-            filter: drop-shadow(10px 10px 5px  grey);
-         }
-         .v{
-            margin-left: 40px;
-            border-radius: 10px;
-            margin-top: 40px;
-            filter: drop-shadow(10px 10px 5px  grey);
-         }
-         .boder{
-            margin-top: 150px;
-            margin-bottom: 30px;
-            border: 200px solid rgb(213, 218, 213); 
-            background-color: rgb(213, 218, 213);
-            border-radius: 15px;
-            filter: drop-shadow(10px 10px 5px grey);
-         }
-         .p2{
-            margin-left: 50px;
-            text-shadow: 5px 5px 10px black;
-            font-size: 22px;
-         }
-         .p3{
-            margin-left: 300px;
-            text-shadow: 5px 5px 10px black;
-            font-size: 25px;
-         }
-         .p4{
-            margin-left: 220px;
-            text-shadow: 5px 5px 10px black;
-            font-size: 25px;
-         }
-         .exp{
-            margin-left: 47px;
-            background-color: rgb(212, 236, 190);
-            color: rgb(5, 5, 4);
-            border-radius: 6px;
-            border-color: rgb(30, 207, 30);
-            filter: drop-shadow(3px 3px 1px  grey);
-            font-family: 'Times New Roman', Times, serif;
-            font-size: 17px;
-            cursor: pointer;
-         }
-         .exp1{
-            margin-left: 315px;
-            background-color: rgb(212, 236, 190);
-            color: rgb(5, 5, 4);
-            border-radius: 6px;
-            border-color: rgb(30, 207, 30);
-            filter: drop-shadow(3px 3px 1px  grey);
-            font-family: 'Times New Roman', Times, serif;
-            font-size: 17px;
-            cursor: pointer;
-         }
-         .exp2{
-            margin-left: 355px;
-            background-color: rgb(212, 236, 190);
-            color: rgb(5, 5, 4);
-            border-radius: 6px;
-            border-color: rgb(30, 207, 30);
-            filter: drop-shadow(3px 3px 1px  grey);
-            font-family: 'Times New Roman', Times, serif;
-            font-size: 17px;
-            cursor: pointer;
-        }
-        .navbar1{
-            background-color: #dde0db;
-            height: 80px;
-            margin-top: 0px;
-            border-radius: 20px;
-            filter: drop-shadow(10px 10px 5px grey);
-        }
-        .nb-box1{
-            /* border: 1px solid rgb(2, 2, 3); */
-            height: 76px;
-            width: 100%;
-            margin: auto;
-            /* text-align: auto; */
-            line-height: 80px;
-            border-radius: 20px;
-            filter: drop-shadow(10px 10px 5px grey);
-        }
-        .home{
-            margin-left: 40px;
-            margin-bottom: -50px;
-            font-size: 25px;
-            cursor: pointer;
-        }
-        .ab{
-            margin-left: 40px;
-            margin-bottom: -50px;
-            font-size: 25px;
-            cursor: pointer;
-        }
-        .con{
-            margin-left: 40px;
-            margin-bottom: -50px;
-            font-size: 25px;
-            cursor: pointer;
-        }
-        .user{
-            margin-left: 40px;
-            margin-bottom: -50px;
-            font-size: 25px;
-            cursor: pointer;
-        }
-        .newbutton{
-            float: right;
-            margin-right: 20px;
-        }
-         /*
-        .body{
-            background-color: #b9cf7a;
-        } */
+    background-color: rgb(67, 182, 92);
+    text-align: center;
+    border-radius: 40px;
+    filter: drop-shadow(10px 10px 5px grey);
+    font-family: 'roman';
+    font-size: 40px;
+}
+h3{
+    background-color: rgb(106, 190, 85);
+    text-align: center;
+    border-radius: 40px;
+    filter: drop-shadow(10px 10px 5px grey);
+} 
+.giri1{
+    text-align: center;
+    border: 2px solid black;
+    margin-left: 560px;
+    margin-right: 530px;
+    background-color: rgb(51, 255, 119);
+    border-radius: 20px;
+    font-size: 15px;
+}
+p{
+    max-width: 280px;
+    margin-left: 40px;
+    font-size: 19px;
+    font-style: bold ;
+}
+.imgdiv{
+    text-align: center;
+}
+.navbar{
+background-color: #dde0db;
+height: 80px;
+margin-top: 30px;
+border-radius: 20px;
+filter: drop-shadow(10px 10px 5px grey);
+}
+.nb-box{
+    height: 76px;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    line-height: 80px;
+    border-radius: 20px;
+    filter: drop-shadow(10px 10px 5px grey);
+}
+.jpg{
+    margin-left: 450px;
+}
+.p1{
+display: flex;
+/* justify-content: space-between; */
+flex-direction: row;
+}
+.login{
+    height: 30px;
+    width: 90px;
+    font-family:'Times New Roman', Times, serif;
+    cursor: pointer;
+    border-radius: 10px;
+    filter: drop-shadow(0px 0px 3px grey);
+    margin-left: 40;
+}
+.acc{
+    background-color: white;
+    height: 35px;
+    width: 150px;
+    border-color: rgb(81, 201, 33);
+    box-shadow: inset;
+    cursor: pointer;
+    border-radius: 10px;
+    filter: drop-shadow(0 0 0  grey);
+    
+}
+.google{
+    margin-left: 350px;
+    height: 200px;
+}
+.gif{
+    height: 90px;
+ }
+ .headimg{
+    filter: drop-shadow(10px 10px 5px  rgb(109, 233, 104));
+    border-radius: 20px;
+    margin-top: 30px;
+ }
+ .nv{
+    margin-left: 40px;
+    border-radius: 10px;
+    margin-top: 40px;
+    filter: drop-shadow(10px 10px 5px  grey);
+    
+ }
+ .ff{
+    margin-left: 40px;
+    border-radius: 10px;
+    margin-top: 40px;
+    filter: drop-shadow(10px 10px 5px  grey);
+ }
+ .v{
+    margin-left: 40px;
+    border-radius: 10px;
+    margin-top: 40px;
+    filter: drop-shadow(10px 10px 5px  grey);
+ }
+ .boder{
+    margin-top: 150px;
+    margin-bottom: 30px;
+    border: 200px solid rgb(213, 218, 213); 
+    background-color: rgb(213, 218, 213);
+    border-radius: 15px;
+    filter: drop-shadow(10px 10px 5px grey);
+ }
+ .p2{
+    margin-left: 50px;
+    text-shadow: 5px 5px 10px black;
+    font-size: 22px;
+ }
+ .p3{
+    margin-left: 300px;
+    text-shadow: 5px 5px 10px black;
+    font-size: 25px;
+ }
+ .p4{
+    margin-left: 220px;
+    text-shadow: 5px 5px 10px black;
+    font-size: 25px;
+ }
+ .exp{
+    margin-left: 47px;
+    background-color: rgb(212, 236, 190);
+    color: rgb(5, 5, 4);
+    border-radius: 6px;
+    border-color: rgb(30, 207, 30);
+    filter: drop-shadow(3px 3px 1px  grey);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+    cursor: pointer;
+ }
+ .exp1{
+    margin-left: 315px;
+    background-color: rgb(212, 236, 190);
+    color: rgb(5, 5, 4);
+    border-radius: 6px;
+    border-color: rgb(30, 207, 30);
+    filter: drop-shadow(3px 3px 1px  grey);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+    cursor: pointer;
+ }
+ .exp2{
+    margin-left: 355px;
+    background-color: rgb(212, 236, 190);
+    color: rgb(5, 5, 4);
+    border-radius: 6px;
+    border-color: rgb(30, 207, 30);
+    filter: drop-shadow(3px 3px 1px  grey);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+    cursor: pointer;
+}
+.navbar1{
+    background-color: #dde0db;
+    height: 80px;
+    margin-top: 0px;
+    border-radius: 20px;
+    filter: drop-shadow(10px 10px 5px grey);
+}
+.nb-box1{
+    height: 76px;
+    width: 100%;
+    margin: auto;
+    line-height: 80px;
+    border-radius: 20px;
+    filter: drop-shadow(10px 10px 5px grey);
+}
+.home{
+    margin-left: 40px;
+    margin-bottom: -50px;
+    font-size: 25px;
+    cursor: pointer;
+}
+.ab{
+    margin-left: 40px;
+    margin-bottom: -50px;
+    font-size: 25px;
+    cursor: pointer;
+}
+.con{
+    margin-left: 40px;
+    margin-bottom: -50px;
+    font-size: 25px;
+    cursor: pointer;
+}
+.user{
+    margin-left: 40px;
+    margin-bottom: -50px;
+    font-size: 25px;
+    cursor: pointer;
+}
+.newbutton{
+    float: right;
+    margin-right: 20px;
+}
+.search{
+    height: 50px;
+    width: 500px;
+    border-radius: 50px;
+    font-size: 18px;
+    text-transform: capitalize;
+}
     </style>
 </head>
 <body>
@@ -237,10 +241,10 @@
     <h1>Order Online.com</h1>
     <div class="navbar1">
         <div class="nb-box1"> 
-            <span class="home">Home</span>
-            <span class="ab">About us</span>
-            <span class="con">Contact us</span>
-            <span class="user">User</span>
+            <span onclick="home()" class="home">Home</span>
+            <span onclick="abt()" class="ab">About us</span>
+            <span onclick="contus()" class="con">Contact us</span>
+            <span onclick="usr()" class="user">User</span>
              <div class="newbutton">
             <a href="giri.login.html">         
                 <button class="login">Login</button> 
@@ -251,20 +255,23 @@
         </div>
         </div>
     </div>
-    <!-- <img class="google" src="https://www.google.com/logos/doodles/2023/celebrating-the-first-landing-on-the-moons-south-pole-6753651837110163.2-2xa.gif"> -->
     <div class="imgdiv"> 
-         <!-- <img class="gif" src="oogif1.gif">  -->
         <img class="headimg" src="images/food modify.jpg" height="320" width="900">
          <img src="images/oogif.gif" height="300">
     </div>                    
     <div class="navbar">
         <div class="nb-box"> 
-            <!-- <a href="giri.login.html">         
-    <button class="login" img src="images/food.jpg">Login</button> 
-</a>
-    <a href="giri.Cre.acc.html">
-    <button class="acc">Create an account</button>
-</a> -->
+            <!-- <form>
+                <input type="text" placeholder="select your city" list="cities">
+                <datalist id="cities">
+                    <option>Deihi</option>
+                    <option>Mumbai</option>
+                    <option>Banglore</option>
+                    <option>Kolkatta</option>
+                    <option>Himachal</option>
+                    <option>Uttarkhand</option>
+                </form> -->
+            <input class="search" type="search" placeholder="    search">
     </div>
     </div>
     <h3>Welcome To Order Online.com
@@ -272,9 +279,11 @@
         powered by GIRI BALAJI.C</h3>
         <div class="giri">
             <div class="giri">
+            <span>
             <img class="nv" src="images/fast food.jpg" height="220" title="Fast Food">
             <img class="ff" src="images/non veg.jpg" height="220" title="Non veg Food">
             <img class="v" src="images/veg modify.jpg" height="220" title="Veg Food">
+            </span>
         </div>
         <div class="p1">
         <p class="p2">
@@ -294,14 +303,6 @@
                 <button class="exp2">Explore</button>
             </span>
         </div>
-            <!-- <div class="jpg">
-                <a href="https://www.zomato.com/bangalore">
-        <img src="images/oo1.jpg">
-    </a>
-            </div> -->
-<!-- <a href="https://www.zomato.com/bangalore">
-    <button class="giri1">click here to order</button>
-</a> -->
      <div class="boder">
     </div>
 </div>
